@@ -4,6 +4,22 @@
 
     
   <url>
+    <loc>http://yoursite.com/2016/05/18/hello-world/</loc>
+    <lastmod>2016-05-18T09:17:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2016-05-18T06:43:04.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://yoursite.com/2016/05/18/iOS-%E9%9D%A2%E8%AF%95%E9%A2%98%E6%B1%87%E6%80%BB/</loc>
     <lastmod>2016-05-18T08:39:59.000Z</lastmod>
     <data>
@@ -13,21 +29,6 @@
         
         <tag>ios</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2016/05/18/hello-world/</loc>
-    <lastmod>2016-05-18T08:36:13.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2016-05-18T06:43:04.000Z</pubTime>
-        
          
            
         </display>
@@ -49,5 +50,4 @@
     </data>
     </url>
 
-    
 </urlset>
