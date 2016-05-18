@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cooooper.github.io/"/>
-  <updated>2016-05-18T10:03:33.000Z</updated>
+  <updated>2016-05-18T10:06:16.000Z</updated>
   <id>http://cooooper.github.io/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>XcodeGhost 是怎么回事</title>
+    <link href="http://cooooper.github.io/2016/05/18/XcodeGhost-%E6%98%AF%E6%80%8E%E4%B9%88%E5%9B%9E%E4%BA%8B/"/>
+    <id>http://cooooper.github.io/2016/05/18/XcodeGhost-是怎么回事/</id>
+    <published>2016-05-18T10:05:53.000Z</published>
+    <updated>2016-05-18T10:06:16.000Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob Pike, 前不久被google挖走了)。Ken爷爷也算是计算机历史上开天辟地的人物了。1969年还是计算机史前时代，普通人都认为只有大型机才能运行通用的操作系统，小型机只有高山仰止的份儿。至于用高级语言来写操作系统，更是笑谈。Ken爷爷自然不是池中物，于是他和DMR怒了，在1969年到1970间用汇编在PDP-7上写出了UNIX的第一个版本。他们并不知道，一场轰轰烈烈的UNIX传奇由此拉开了序幕。Ken爷爷在1971年又把Unix用C重写，于是C在随后20年成就了不知多少豪杰的梦想和光荣。&lt;/p&gt;
+&lt;p&gt;Ken爷爷还有段佳话： 装了UNIX的PDP-11最早被安装在Bell Lab里供大家日常使用。很快大家就发现Ken爷爷总能进入他们的帐户，获得最高权限。Bell Lab里的科学家都心比天高，当然被搞得郁闷无比。于是有高手怒了，跳出来分析了UNIX代码，找到后门，修改代码，然后重新编译了整个UNIX。就在大家都以为“这个世界清净了”的时候，他们发现Ken爷爷还是轻而易举地拿到他们的帐户权限，百思不解后，只好继续郁闷。谁知道这一郁闷，就郁闷了14年，直到Ken爷爷道出个中缘由。原来，代码里的确有后门，但后门不在Unix代码里，而在编译Unix代码的C编译器里。每次C编译器编译UNIX的代码，就自动生成后门代码。而整个Bell Lab的人，都是用Ken爷爷的C编译器。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob P
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
