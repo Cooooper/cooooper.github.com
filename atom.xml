@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>在路上。</title>
-  
+  <subtitle>Stay hungry Stay foolish.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   
   <author>
     <name>在路上。</name>
-    
+    <email>idevhan@gmail.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
