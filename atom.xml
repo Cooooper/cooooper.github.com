@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-18T06:55:40.000Z</updated>
+  <updated>2016-05-18T07:45:19.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,15 +16,68 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>I have a dream --hanyahui</title>
-    <link href="http://yoursite.com/2016/05/18/I-have-a-dream-hanyahui/"/>
-    <id>http://yoursite.com/2016/05/18/I-have-a-dream-hanyahui/</id>
+    <title>ideabinder iOS 工程师 岗位要求</title>
+    <link href="http://yoursite.com/2016/05/18/ideabinder-iOS-%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B2%97%E4%BD%8D%E8%A6%81%E6%B1%82/"/>
+    <id>http://yoursite.com/2016/05/18/ideabinder-iOS-工程师岗位要求/</id>
     <published>2016-05-18T06:55:40.000Z</published>
-    <updated>2016-05-18T06:55:40.000Z</updated>
+    <updated>2016-05-18T07:45:19.000Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;p&gt;岗位职责：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;[独立开发] 能够独立完成客户端应用的功能开发&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[功能调试] 负责客户端的单元测试及功能调试&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[持续优化] 能够对现有项目进行维护及持续优化，并能及时添加对iOS新特性的支持&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[编写文档] 参与工程类相关文档的编写与维护工作&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[反馈问题] 主动发现问题，及时向主管反馈&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;岗位要求：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;为人正直、诚实守信、认真负责&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;一年以上iOS客户端开发经验，深入理解面向对象编程思想，具有扎实的Objective-C的语言基础，良好的编码风格，掌握SQLite数据库的基本操作及HTTP/HTTPS网络协议相关知识&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;对内存管理机制有较深了解，了解多线程编程，对MVC框架及常见设计模式有自己的见解&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;具有团队合作精神，优秀的分析、解决问题能力，快速学习能力，能从具体业务出发对新技术进行研究和运用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;追求更好的用户体验，并能提出自己的见解&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;计算机及软件相关专业本科学历及以上者优先考虑&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;实习岗：[技术定向生 —— iOS开发方向]     &lt;/p&gt;
+&lt;p&gt;岗位职责：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;[学习技术] 学习并研究技术主管所安排的技术点     &lt;/li&gt;
+&lt;li&gt;[功能开发] 根据主管的任务安排，完成小型独立模块或控件的开发工作      &lt;/li&gt;
+&lt;li&gt;[单元测试] 负责iOS客户端的单元测试，参与系统的集成测试    &lt;/li&gt;
+&lt;li&gt;[文档编写] 参与工程类相关文档的编写与维护工作      &lt;/li&gt;
+&lt;li&gt;[反馈问题] 主动发现问题，及时向主管反馈&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;岗位要求：  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;为人正直，诚实守信、认真负责&lt;/li&gt;
+&lt;li&gt;理解面向对象编程思想，熟悉iOS系统并具有Objective-C的语言基础，了解数据库的基本操作&lt;/li&gt;
+&lt;li&gt;具有团队合作精神，良好的沟通能力，勇于承担责任&lt;/li&gt;
+&lt;li&gt;具有强烈的求知欲，对技术狂热，有快速学习能力 &lt;/li&gt;
+&lt;li&gt;计算机相关专业本科及以上者，具有移动互联项目开发经验者优先&lt;/li&gt;
+&lt;/ol&gt;
+</content>
     
     <summary type="html">
+    
+      &lt;p&gt;岗位职责：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;[独立开发] 能够独立完成客户端应用的功能开发&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[功能调试] 负责客户端的单元测试及功能调试&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[持续优化] 能够对现有项目进行维护及持续优化，并能及时添加对iOS
     
     </summary>
     
