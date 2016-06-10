@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cooooper.github.io/"/>
-  <updated>2016-05-18T10:06:16.000Z</updated>
+  <updated>2016-06-10T16:03:37.000Z</updated>
   <id>http://cooooper.github.io/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>UILocalized​Indexed​Collation</title>
+    <link href="http://cooooper.github.io/2016/06/11/UILocalized%E2%80%8BIndexed%E2%80%8BCollation/"/>
+    <id>http://cooooper.github.io/2016/06/11/UILocalized​Indexed​Collation/</id>
+    <published>2016-06-10T16:03:08.000Z</published>
+    <updated>2016-06-10T16:03:37.000Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;http://nshipster.cn/uilocalizedindexedcollation/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UILocalized​Indexed​Collation&lt;/a&gt;用法&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;http://nshipster.cn/uilocalizedindexedcollation/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UILocalized​Indexed​Coll
+    
+    </summary>
+    
+    
+      <category term="ios" scheme="http://cooooper.github.io/tags/ios/"/>
+    
+  </entry>
   
   <entry>
     <title>XcodeGhost 是怎么回事</title>
