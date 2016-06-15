@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>CocoaPods安装使用和错误 | 在路上。</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Cocopods的安装CocoaPods应该是iOS最常用最有名的类库管理当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻烦。如果我们项目中用到的类库有更新，还要重新下载新版本，重新加入到项目中，十分麻烦。所以，我们需要 CocoaPods帮我们管理。如何下载和安装CocoaPods？在安装Coc">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CocoaPods安装使用和错误">
+<meta property="og:url" content="http://cooooper.github.io/2016/06/15/CocoaPods安装使用和错误/index.html">
+<meta property="og:site_name" content="在路上。">
+<meta property="og:description" content="Cocopods的安装CocoaPods应该是iOS最常用最有名的类库管理当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻烦。如果我们项目中用到的类库有更新，还要重新下载新版本，重新加入到项目中，十分麻烦。所以，我们需要 CocoaPods帮我们管理。如何下载和安装CocoaPods？在安装Coc">
+<meta property="og:updated_time" content="2016-06-15T09:52:10.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CocoaPods安装使用和错误">
+<meta name="twitter:description" content="Cocopods的安装CocoaPods应该是iOS最常用最有名的类库管理当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻烦。如果我们项目中用到的类库有更新，还要重新下载新版本，重新加入到项目中，十分麻烦。所以，我们需要 CocoaPods帮我们管理。如何下载和安装CocoaPods？在安装Coc">
+  
+    <link rel="alternative" href="/atom.xml" title="在路上。" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+  
+</head>
+<body>
+<div id="container">
+  <div id="wrap">
+    <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">在路上。</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Stay hungry Stay foolish.</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="http://www.baidu.com/baidu" method="get" accept-charset="utf-8" class="search-form">
+          <input type="search" name="word" maxlength="20" class="search-form-input" placeholder="Search">
+          <input type="submit" value="" class="search-form-submit">
+          <input name=tn type=hidden value="bds">
+          <input name=cl type=hidden value="3">
+          <input name=ct type=hidden value="2097152">
+          <input type="hidden" name="si" value="cooooper.github.io">
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="outer">
+      <section id="main"><article id="post-CocoaPods安装使用和错误" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/06/15/CocoaPods安装使用和错误/" class="article-date">
+  <time datetime="2016-06-15T09:50:28.000Z" itemprop="datePublished">2016-06-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      CocoaPods安装使用和错误
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <a id="more"></a>
+<p>Cocopods的安装<br>CocoaPods应该是iOS最常用最有名的类库管理<br>当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻烦。如果我们项目中用到的类库有更新，还要重新下载新版本，重新加入到项目中，十分麻烦。所以，我们需要 CocoaPods帮我们管理。<br>如何下载和安装CocoaPods？<br>在安装CocoaPods之前，首先要在本地安装好Ruby环境。至于如何在Mac中安装好Ruby环境，请找度娘和谷哥。<br>假如你在本地已经安装好Ruby环境，那么下载和安装CocoaPods将十分简单，只需要一行命令。在Terminator中输入以下命令：</p>
+<pre><code>sudo gem install cocoapods
+</code></pre><p>但是,在终端中敲入这个命令之后，可能半天没有任何反应。</p>
+<p>这时我们可以用淘宝的Ruby镜像来访问cocoapods。按照下面的顺序在终端中敲入依次敲入命令：</p>
+<pre><code>$ gem sources --remove https://rubygems.org/
+</code></pre><p>//等有反应之后再敲入以下命令</p>
+<pre><code>$ gem sources -a https://ruby.taobao.org/
+</code></pre><p>为了验证你的Ruby镜像是并且仅是taobao，可以用以下命令查看：</p>
+<pre><code>$ gem sources -l
+</code></pre><p>只有在终端中出现下面文字才表明你上面的命令是成功的：</p>
+<pre><code>*** CURRENT SOURCES ***
+https://ruby.taobao.org/
+</code></pre><p>这时候，我们再次在终端中运行：</p>
+<pre><code>$ sudo gem install cocoapods
+
+$ pod setup
+</code></pre><p>等一会，CocoaPods就可以在你本地下载并且安装好了</p>
+<p>安装时候遇到的问题：<br>Setting up CocoaPods master repo<br>[!] /usr/bin/git clone <a href="https://github.com/CocoaPods/Specs.git" target="_blank" rel="external">https://github.com/CocoaPods/Specs.git</a>  master –depth=1</p>
+<p>Cloning into ‘master’…<br>error: RPC failed; result=18, HTTP code = 200<br>fatal: The remote end hung up unexpectedly<br>fatal: early EOF<br>fatal: index-pack failed<br>解决办法：<br>$ git config –global http.postBuffer 24288000<br>$ git config –list<br>会输出：http.postbuffer=24288000</p>
+<p>再次执行:</p>
+<p>$ pod setup<br>Cocopods使用<br>我们想用CocoaPods，在项目中导入ASIHTTPRequest类库<br>首先，我们要确定ASIHTTPRequest是否支持CocoaPods，可以用CocoaPods的搜索功能验证一下。在终端中输入：</p>
+<pre><code>$ pod search ASIHTTPRequest
+</code></pre><p>输入之后，你会在终端中看到关于ASIHTTPRequest类库的一些信息。<br>比如：</p>
+<pre><code>-&gt; ASIHTTPRequest (1.8.2)
+   Easy to use CFNetwork wrapper for HTTP requests, Objective-C, Mac    OS X and  iPhone.
+   pod &apos;ASIHTTPRequest&apos;, &apos;~&gt; 1.8.2&apos;
+   - Homepage: http://allseeing-i.com/ASIHTTPRequest
+   - Source:   https://github.com/pokeb/asi-http-request.git
+   - Versions: 1.8.2, 1.8.1 [master repo]
+   - Sub specs:
+   - ASIHTTPRequest/Core (1.8.2)
+   - ASIHTTPRequest/ASIWebPageRequest (1.8.2)
+   - ASIHTTPRequest/CloudFiles (1.8.2)
+   - ASIHTTPRequest/S3 (1.8.2)
+</code></pre><p>现在知道ASIHTTPRequest支持Cocopods了，我们就要道你的项目中创建一个文件，这个文件就叫做“Podfile”，一定得是这个文件名，而且没有后缀。在里面添加pod ‘ASIHTTPRequest’, ‘~&gt; 1.8.2’,就是告诉CocoaPods,我们要下载ASIHTTPRequest ，1.8.2版本</p>
+<p>我们先创建这个PodFile文件。在终端中进入（cd命令）你项目所在目录，然后在当前目录下，利用vim创建Podfile，运行：</p>
+<pre><code>$ vim Podfile
+</code></pre><p>然后在Podfile文件中输入以下文字：</p>
+<pre><code>pod &quot;ASIHTTPRequest&quot;, &quot;~&gt; 1.8.2&quot;
+</code></pre><p>然后保存退出。vim环境下，保存退出命令是：</p>
+<pre><code>:wq!
+</code></pre><p>我们会发现项目中，多了一个名字为Podfile的文件，而且文件内容就是输入的内容。注意，Podfile文件应该和你的工程文件.xcodeproj在同一个目录下。</p>
+<p>下面我们就可以利用CocoPods下载ASIHTTPRequest类库了。还是在终端中的当前项目下，运行命令：</p>
+<pre><code>$ pod install
+</code></pre><p>运行完命令之后，会看见有这句话[!] From now on use <strong><em>**</em></strong>.xcworkspace这是说：以后打开项目就用 <strong>.xcworkspace 打开，而不是之前的</strong>.xcodeproj文件。</p>
+<p>现在，我们就可以开始使用ASIHTTPRequest啦。可以测试一下，在项目中输入：</p>
+<p>#import <afnetworking.h>或者#import “AFNetworking.h”试试</afnetworking.h></p>
+<p>如果以后有更新 或者 添加别的类库，用update命令即可：</p>
+<pre><code>$ pod update
+</code></pre><p>CocoaPods 报错<br>Xcode 升级到 6.0 后，更新 CocoaPods 或者以前手动添加过第三方SDK改用Cocopods，可能会出现以下的错误</p>
+<p>错误1：<br>     [!] The <code>Paopao [Debug]</code> target overrides the <code>PODS_ROOT</code> build setting defined in `Pods/Target Support Files/Pods/Pods.debug.xcconfig’. This can lead to problems with the CocoaPods installation</p>
+<ul>
+<li>Use the <code>$(inherited)</code> flag, or</li>
+<li><p>Remove the build settings from the target.</p>
+<p>  [!] The <code>Paopao [Debug]</code> target overrides the <code>OTHER_LDFLAGS</code> build setting defined in `Pods/Target Support Files/Pods/Pods.debug.xcconfig’. This can lead to problems with the CocoaPods installation</p>
+</li>
+<li>Use the <code>$(inherited)</code> flag, or</li>
+<li><p>Remove the build settings from the target.</p>
+<pre><code>[!] The `Paopao [Release]` target overrides the `PODS_ROOT` build setting defined in `Pods/Target Support Files/Pods/Pods.release.xcconfig&apos;. This can lead to problems with the CocoaPods installation
+</code></pre></li>
+<li>Use the <code>$(inherited)</code> flag, or</li>
+<li><p>Remove the build settings from the target.</p>
+<pre><code>[!] The `Paopao [Release]` target overrides the `OTHER_LDFLAGS` build setting defined in `Pods/Target Support Files/Pods/Pods.release.xcconfig&apos;. This can lead to problems with the CocoaPods installation
+</code></pre></li>
+<li>Use the <code>$(inherited)</code> flag, or</li>
+<li>Remove the build settings from the target.<br>产生此警告的原因是项目 Target 中的一些设置，CocoaPods 也做了默认的设置，如果两个设置结果不一致，就会造成问题。</li>
+</ul>
+<p>我想要使用 CocoaPods 中的设置，分别在我的项目中定义PODS_ROOT 和 Other Linker Flags的地方，把他们的值用$(inherited)替换掉，进入终端，执行</p>
+<pre><code>pod update
+</code></pre><p>警告没了</p>
+<p>我个人更喜欢一种简单粗暴的方法：</p>
+<p>点击项目文件 project.xcodeproj，右键显示包内容，用文本编辑器打开project.pbxproj，删除OTHER_LDFLAGS的地方，保存，pod update,警告没了。。。。</p>
+<p>错误2：</p>
+<p>错误<br>这个解决也比较简单，<br>在Build Setting 中的Other Linker Flags选项中加入$(OTHER_LDFLAGS) 如图：</p>
+<p>解决错误<br>编译通过………</p>
+<p>文／青楼（简书作者）<br>原文链接：<a href="http://www.jianshu.com/p/b5315bf42975" target="_blank" rel="external">http://www.jianshu.com/p/b5315bf42975</a><br>著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://cooooper.github.io/2016/06/15/CocoaPods安装使用和错误/" data-id="cipgp8i3l0001yw4yh3a0qxzy" class="article-share-link" data-share="baidu" data-title="CocoaPods安装使用和错误">分享到</a>
+      
+
+      
+        <a href="http://cooooper.github.io/2016/06/15/CocoaPods安装使用和错误/#ds-thread" class="article-comment-link">评论</a>
+      
+
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cocoaPods/">cocoaPods</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/06/11/UILocalized​Indexed​Collation/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">UILocalized​Indexed​Collation</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+ </section>
+      
+      <aside id="sidebar">
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/cocoaPods/">cocoaPods</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ios/">ios</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">六月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">4</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">近期文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/06/15/CocoaPods安装使用和错误/">CocoaPods安装使用和错误</a>
+          </li>
+        
+          <li>
+            <a href="/2016/06/11/UILocalized​Indexed​Collation/">UILocalized​Indexed​Collation</a>
+          </li>
+        
+          <li>
+            <a href="/2016/05/18/XcodeGhost-是怎么回事/">XcodeGhost 是怎么回事</a>
+          </li>
+        
+          <li>
+            <a href="/2016/05/18/iOS-面试题汇总/">iOS 面试题汇总</a>
+          </li>
+        
+          <li>
+            <a href="/2016/05/18/ideabinder-iOS-工程师岗位要求/">ideabinder iOS 工程师 岗位要求</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">友情链接</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="https://github.com/Cooooper" target="_blank">My_GitHub</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1919467993&verifier=684beed1&dpc=1"></iframe>
+  
+</aside>
+      
+    </div>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 在路上。<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      .
+      Theme by <a href="https://github.com/xiangming/landscape-plus" target="_blank">Landscape-plus</a>
+    </div>
+  </div>
+</footer>
+  </div>
+  <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav>
+  <!-- totop start -->
+<div id="totop">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+
+<!-- totop end -->
+
+<!-- 多说公共js代码 start -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"cooooper"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共js代码 end -->
+
+
+<!-- 百度分享 start -->
+
+<div id="article-share-box" class="article-share-box">
+  <div id="bdshare" class="bdsharebuttonbox article-share-links">
+    <a class="article-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a class="article-share-weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a class="article-share-qq" data-cmd="sqq" title="分享到QQ"></a>
+    <a class="article-share-renren" data-cmd="renren" title="分享到人人网"></a>
+    <a class="article-share-more" data-cmd="more" title="更多"></a>
+  </div>
+</div>
+<script>
+  function SetShareData(cmd, config) {
+    if (shareDataTitle && shareDataUrl) {
+      config.bdText = shareDataTitle;
+      config.bdUrl = shareDataUrl;
+    }
+    return config;
+  }
+  window._bd_share_config={
+    "common":{onBeforeClick: SetShareData},
+    "share":{"bdCustomStyle":"/css/bdshare.css"}
+  };
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+<!-- 百度分享 end -->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+</div>
+</body>
+</html>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cooooper.github.io/"/>
-  <updated>2016-06-10T16:03:37.000Z</updated>
+  <updated>2016-06-15T09:52:10.000Z</updated>
   <id>http://cooooper.github.io/</id>
   
   <author>
@@ -14,6 +14,104 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CocoaPods安装使用和错误</title>
+    <link href="http://cooooper.github.io/2016/06/15/CocoaPods%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E5%92%8C%E9%94%99%E8%AF%AF/"/>
+    <id>http://cooooper.github.io/2016/06/15/CocoaPods安装使用和错误/</id>
+    <published>2016-06-15T09:50:28.000Z</published>
+    <updated>2016-06-15T09:52:10.000Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Cocopods的安装&lt;br&gt;CocoaPods应该是iOS最常用最有名的类库管理&lt;br&gt;当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻烦。如果我们项目中用到的类库有更新，还要重新下载新版本，重新加入到项目中，十分麻烦。所以，我们需要 CocoaPods帮我们管理。&lt;br&gt;如何下载和安装CocoaPods？&lt;br&gt;在安装CocoaPods之前，首先要在本地安装好Ruby环境。至于如何在Mac中安装好Ruby环境，请找度娘和谷哥。&lt;br&gt;假如你在本地已经安装好Ruby环境，那么下载和安装CocoaPods将十分简单，只需要一行命令。在Terminator中输入以下命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo gem install cocoapods
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;但是,在终端中敲入这个命令之后，可能半天没有任何反应。&lt;/p&gt;
+&lt;p&gt;这时我们可以用淘宝的Ruby镜像来访问cocoapods。按照下面的顺序在终端中敲入依次敲入命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ gem sources --remove https://rubygems.org/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;//等有反应之后再敲入以下命令&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ gem sources -a https://ruby.taobao.org/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;为了验证你的Ruby镜像是并且仅是taobao，可以用以下命令查看：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ gem sources -l
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;只有在终端中出现下面文字才表明你上面的命令是成功的：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;*** CURRENT SOURCES ***
+https://ruby.taobao.org/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这时候，我们再次在终端中运行：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo gem install cocoapods
+
+$ pod setup
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;等一会，CocoaPods就可以在你本地下载并且安装好了&lt;/p&gt;
+&lt;p&gt;安装时候遇到的问题：&lt;br&gt;Setting up CocoaPods master repo&lt;br&gt;[!] /usr/bin/git clone &lt;a href=&quot;https://github.com/CocoaPods/Specs.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/CocoaPods/Specs.git&lt;/a&gt;  master –depth=1&lt;/p&gt;
+&lt;p&gt;Cloning into ‘master’…&lt;br&gt;error: RPC failed; result=18, HTTP code = 200&lt;br&gt;fatal: The remote end hung up unexpectedly&lt;br&gt;fatal: early EOF&lt;br&gt;fatal: index-pack failed&lt;br&gt;解决办法：&lt;br&gt;$ git config –global http.postBuffer 24288000&lt;br&gt;$ git config –list&lt;br&gt;会输出：http.postbuffer=24288000&lt;/p&gt;
+&lt;p&gt;再次执行:&lt;/p&gt;
+&lt;p&gt;$ pod setup&lt;br&gt;Cocopods使用&lt;br&gt;我们想用CocoaPods，在项目中导入ASIHTTPRequest类库&lt;br&gt;首先，我们要确定ASIHTTPRequest是否支持CocoaPods，可以用CocoaPods的搜索功能验证一下。在终端中输入：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ pod search ASIHTTPRequest
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;输入之后，你会在终端中看到关于ASIHTTPRequest类库的一些信息。&lt;br&gt;比如：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;-&amp;gt; ASIHTTPRequest (1.8.2)
+   Easy to use CFNetwork wrapper for HTTP requests, Objective-C, Mac    OS X and  iPhone.
+   pod &amp;apos;ASIHTTPRequest&amp;apos;, &amp;apos;~&amp;gt; 1.8.2&amp;apos;
+   - Homepage: http://allseeing-i.com/ASIHTTPRequest
+   - Source:   https://github.com/pokeb/asi-http-request.git
+   - Versions: 1.8.2, 1.8.1 [master repo]
+   - Sub specs:
+   - ASIHTTPRequest/Core (1.8.2)
+   - ASIHTTPRequest/ASIWebPageRequest (1.8.2)
+   - ASIHTTPRequest/CloudFiles (1.8.2)
+   - ASIHTTPRequest/S3 (1.8.2)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;现在知道ASIHTTPRequest支持Cocopods了，我们就要道你的项目中创建一个文件，这个文件就叫做“Podfile”，一定得是这个文件名，而且没有后缀。在里面添加pod ‘ASIHTTPRequest’, ‘~&amp;gt; 1.8.2’,就是告诉CocoaPods,我们要下载ASIHTTPRequest ，1.8.2版本&lt;/p&gt;
+&lt;p&gt;我们先创建这个PodFile文件。在终端中进入（cd命令）你项目所在目录，然后在当前目录下，利用vim创建Podfile，运行：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ vim Podfile
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后在Podfile文件中输入以下文字：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pod &amp;quot;ASIHTTPRequest&amp;quot;, &amp;quot;~&amp;gt; 1.8.2&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后保存退出。vim环境下，保存退出命令是：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;:wq!
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我们会发现项目中，多了一个名字为Podfile的文件，而且文件内容就是输入的内容。注意，Podfile文件应该和你的工程文件.xcodeproj在同一个目录下。&lt;/p&gt;
+&lt;p&gt;下面我们就可以利用CocoPods下载ASIHTTPRequest类库了。还是在终端中的当前项目下，运行命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ pod install
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;运行完命令之后，会看见有这句话[!] From now on use &lt;strong&gt;&lt;em&gt;**&lt;/em&gt;&lt;/strong&gt;.xcworkspace这是说：以后打开项目就用 &lt;strong&gt;.xcworkspace 打开，而不是之前的&lt;/strong&gt;.xcodeproj文件。&lt;/p&gt;
+&lt;p&gt;现在，我们就可以开始使用ASIHTTPRequest啦。可以测试一下，在项目中输入：&lt;/p&gt;
+&lt;p&gt;#import &lt;afnetworking.h&gt;或者#import “AFNetworking.h”试试&lt;/afnetworking.h&gt;&lt;/p&gt;
+&lt;p&gt;如果以后有更新 或者 添加别的类库，用update命令即可：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ pod update
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;CocoaPods 报错&lt;br&gt;Xcode 升级到 6.0 后，更新 CocoaPods 或者以前手动添加过第三方SDK改用Cocopods，可能会出现以下的错误&lt;/p&gt;
+&lt;p&gt;错误1：&lt;br&gt;     [!] The &lt;code&gt;Paopao [Debug]&lt;/code&gt; target overrides the &lt;code&gt;PODS_ROOT&lt;/code&gt; build setting defined in `Pods/Target Support Files/Pods/Pods.debug.xcconfig’. This can lead to problems with the CocoaPods installation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the &lt;code&gt;$(inherited)&lt;/code&gt; flag, or&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Remove the build settings from the target.&lt;/p&gt;
+&lt;p&gt;  [!] The &lt;code&gt;Paopao [Debug]&lt;/code&gt; target overrides the &lt;code&gt;OTHER_LDFLAGS&lt;/code&gt; build setting defined in `Pods/Target Support Files/Pods/Pods.debug.xcconfig’. This can lead to problems with the CocoaPods installation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;$(inherited)&lt;/code&gt; flag, or&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Remove the build settings from the target.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[!] The `Paopao [Release]` target overrides the `PODS_ROOT` build setting defined in `Pods/Target Support Files/Pods/Pods.release.xcconfig&amp;apos;. This can lead to problems with the CocoaPods installation
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;$(inherited)&lt;/code&gt; flag, or&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Remove the build settings from the target.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[!] The `Paopao [Release]` target overrides the `OTHER_LDFLAGS` build setting defined in `Pods/Target Support Files/Pods/Pods.release.xcconfig&amp;apos;. This can lead to problems with the CocoaPods installation
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;$(inherited)&lt;/code&gt; flag, or&lt;/li&gt;
+&lt;li&gt;Remove the build settings from the target.&lt;br&gt;产生此警告的原因是项目 Target 中的一些设置，CocoaPods 也做了默认的设置，如果两个设置结果不一致，就会造成问题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我想要使用 CocoaPods 中的设置，分别在我的项目中定义PODS_ROOT 和 Other Linker Flags的地方，把他们的值用$(inherited)替换掉，进入终端，执行&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pod update
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;警告没了&lt;/p&gt;
+&lt;p&gt;我个人更喜欢一种简单粗暴的方法：&lt;/p&gt;
+&lt;p&gt;点击项目文件 project.xcodeproj，右键显示包内容，用文本编辑器打开project.pbxproj，删除OTHER_LDFLAGS的地方，保存，pod update,警告没了。。。。&lt;/p&gt;
+&lt;p&gt;错误2：&lt;/p&gt;
+&lt;p&gt;错误&lt;br&gt;这个解决也比较简单，&lt;br&gt;在Build Setting 中的Other Linker Flags选项中加入$(OTHER_LDFLAGS) 如图：&lt;/p&gt;
+&lt;p&gt;解决错误&lt;br&gt;编译通过………&lt;/p&gt;
+&lt;p&gt;文／青楼（简书作者）&lt;br&gt;原文链接：&lt;a href=&quot;http://www.jianshu.com/p/b5315bf42975&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/b5315bf42975&lt;/a&gt;&lt;br&gt;著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Cocopods的安装&lt;br&gt;CocoaPods应该是iOS最常用最有名的类库管理&lt;br&gt;当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻
+    
+    </summary>
+    
+    
+      <category term="cocoaPods" scheme="http://cooooper.github.io/tags/cocoaPods/"/>
+    
+  </entry>
   
   <entry>
     <title>UILocalized​Indexed​Collation</title>
