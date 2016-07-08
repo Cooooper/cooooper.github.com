@@ -97,26 +97,16 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>原值:2.7999999999</p>
-<p><code>typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) {
-    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 
-    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8
-    kCFNumberFormatterRoundDown = 2,//加上了人民币标志,原值输出￥2.8
-    kCFNumberFormatterRoundUp = 3,//本身数值乘以100后用百分号表示,输出280%
-    kCFNumberFormatterRoundHalfEven = 4,//输出2.799999999E0
-    kCFNumberFormatterRoundHalfDown = 5,//原值的中文表示,输出二点七九九九。。。。
-    kCFNumberFormatterRoundHalfUp = 6//原值中文表示,输出第三
-};</code></p>
-<p><code>NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
-formatter.numberStyle = kCFNumberFormatterRoundHalfDown;
-NSString *string = [formatter stringFromNumber:[NSNumber numberWithInt:12]];
-NSLog(@&quot;str = %@&quot;, string);</code></p>
+        <a id="more"></a>
+<p>原值:2.7999999999</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) &#123;</span><br><span class="line"></span><br><span class="line">    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 </span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundDown = 2,//加上了人民币标志,原值输出￥2.8</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundUp = 3,//本身数值乘以100后用百分号表示,输出280%</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundHalfEven = 4,//输出2.799999999E0</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundHalfDown = 5,//原值的中文表示,输出二点七九九九。。。。</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundHalfUp = 6//原值中文表示,输出第三</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];</span><br><span class="line"></span><br><span class="line">formatter.numberStyle = kCFNumberFormatterRoundHalfDown;</span><br><span class="line"></span><br><span class="line">NSString *string = [formatter stringFromNumber:[NSNumber numberWithInt:12]];</span><br><span class="line"></span><br><span class="line">NSLog(@&quot;str = %@&quot;, string);</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/" data-id="ciqdck9bg0005yk4yw3adeg9v" class="article-share-link" data-share="baidu" data-title="格式化Number 小技巧">分享到</a>
+        <a data-url="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/" data-id="ciqdcpgsw000aze4y1womi8b4" class="article-share-link" data-share="baidu" data-title="格式化Number 小技巧">分享到</a>
       
 
       
@@ -235,7 +225,7 @@ $ pod setup
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://cooooper.github.io/2016/06/15/CocoaPods安装使用和错误/" data-id="ciqdck9aq0000yk4y0dhzt4o1" class="article-share-link" data-share="baidu" data-title="CocoaPods安装使用和错误">分享到</a>
+        <a data-url="http://cooooper.github.io/2016/06/15/CocoaPods安装使用和错误/" data-id="ciqdcpgsc0002ze4ys0v5j1xw" class="article-share-link" data-share="baidu" data-title="CocoaPods安装使用和错误">分享到</a>
       
 
       
@@ -282,7 +272,7 @@ $ pod setup
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://cooooper.github.io/2016/06/11/UILocalized​Indexed​Collation/" data-id="ciqdck9bf0004yk4yyyddgkqa" class="article-share-link" data-share="baidu" data-title="UILocalized​Indexed​Collation">分享到</a>
+        <a data-url="http://cooooper.github.io/2016/06/11/UILocalized​Indexed​Collation/" data-id="ciqdcpgs20000ze4ysp95re3t" class="article-share-link" data-share="baidu" data-title="UILocalized​Indexed​Collation">分享到</a>
       
 
       
@@ -329,7 +319,7 @@ $ pod setup
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://cooooper.github.io/2016/05/18/XcodeGhost-是怎么回事/" data-id="ciqdck9b80002yk4yx0yj1v7j" class="article-share-link" data-share="baidu" data-title="XcodeGhost 是怎么回事">分享到</a>
+        <a data-url="http://cooooper.github.io/2016/05/18/XcodeGhost-是怎么回事/" data-id="ciqdcpgsj0004ze4ymnpzbdev" class="article-share-link" data-share="baidu" data-title="XcodeGhost 是怎么回事">分享到</a>
       
 
       
@@ -510,7 +500,7 @@ $ pod setup
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://cooooper.github.io/2016/05/18/iOS-面试题汇总/" data-id="ciqdck9bo000ayk4ylemm0t3i" class="article-share-link" data-share="baidu" data-title="iOS 面试题汇总">分享到</a>
+        <a data-url="http://cooooper.github.io/2016/05/18/iOS-面试题汇总/" data-id="ciqdcpgss0009ze4yekt03qzt" class="article-share-link" data-share="baidu" data-title="iOS 面试题汇总">分享到</a>
       
 
       
@@ -600,7 +590,7 @@ $ pod setup
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://cooooper.github.io/2016/05/18/ideabinder-iOS-工程师岗位要求/" data-id="ciqdck9bj0007yk4y6t15oxus" class="article-share-link" data-share="baidu" data-title="ideabinder iOS 工程师 岗位要求">分享到</a>
+        <a data-url="http://cooooper.github.io/2016/05/18/ideabinder-iOS-工程师岗位要求/" data-id="ciqdcpgsr0007ze4yt68j07ky" class="article-share-link" data-share="baidu" data-title="ideabinder iOS 工程师 岗位要求">分享到</a>
       
 
       
@@ -652,7 +642,7 @@ $ pod setup
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://cooooper.github.io/2016/05/18/hello-world/" data-id="ciqdck9bl0009yk4y1ipt3pj8" class="article-share-link" data-share="baidu" data-title="Hello World">分享到</a>
+        <a data-url="http://cooooper.github.io/2016/05/18/hello-world/" data-id="ciqdcpgsm0005ze4ywd4sdasn" class="article-share-link" data-share="baidu" data-title="Hello World">分享到</a>
       
 
       
