@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cooooper.github.io/"/>
-  <updated>2016-06-15T09:52:10.000Z</updated>
+  <updated>2016-07-08T06:14:03.000Z</updated>
   <id>http://cooooper.github.io/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>格式化Number 小技巧</title>
+    <link href="http://cooooper.github.io/2016/07/08/%E6%A0%BC%E5%BC%8F%E5%8C%96Number-%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <id>http://cooooper.github.io/2016/07/08/格式化Number-小技巧/</id>
+    <published>2016-07-08T06:11:09.000Z</published>
+    <updated>2016-07-08T06:14:03.000Z</updated>
+    
+    <content type="html">&lt;p&gt;原值:2.7999999999&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) {
+    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 
+    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8
+    kCFNumberFormatterRoundDown = 2,//加上了人民币标志,原值输出￥2.8
+    kCFNumberFormatterRoundUp = 3,//本身数值乘以100后用百分号表示,输出280%
+    kCFNumberFormatterRoundHalfEven = 4,//输出2.799999999E0
+    kCFNumberFormatterRoundHalfDown = 5,//原值的中文表示,输出二点七九九九。。。。
+    kCFNumberFormatterRoundHalfUp = 6//原值中文表示,输出第三
+};&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+formatter.numberStyle = kCFNumberFormatterRoundHalfDown;
+NSString *string = [formatter stringFromNumber:[NSNumber numberWithInt:12]];
+NSLog(@&amp;quot;str = %@&amp;quot;, string);&lt;/code&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原值:2.7999999999&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) {
+    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>CocoaPods安装使用和错误</title>

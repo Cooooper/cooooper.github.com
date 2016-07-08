@@ -4,18 +4,30 @@
 <head>
   <meta charset="utf-8">
   
-  <title>XcodeGhost 是怎么回事 | Fovever young</title>
+  <title>格式化Number 小技巧 | Fovever young</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob Pike, 前不久被google挖走了)。Ken爷爷也算是计算机历史上开天辟地的人物了。1969年还是计算机史前时代，普通人都认为只有大型机才能运行通用的操作系统">
+  <meta name="description" content="原值:2.7999999999
+typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) {
+    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 
+    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8
+    kCFNumberFormatterRo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="XcodeGhost 是怎么回事">
-<meta property="og:url" content="http://cooooper.github.io/2016/05/18/XcodeGhost-是怎么回事/index.html">
+<meta property="og:title" content="格式化Number 小技巧">
+<meta property="og:url" content="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/index.html">
 <meta property="og:site_name" content="Fovever young">
-<meta property="og:description" content="Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob Pike, 前不久被google挖走了)。Ken爷爷也算是计算机历史上开天辟地的人物了。1969年还是计算机史前时代，普通人都认为只有大型机才能运行通用的操作系统">
-<meta property="og:updated_time" content="2016-05-18T10:06:16.000Z">
+<meta property="og:description" content="原值:2.7999999999
+typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) {
+    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 
+    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8
+    kCFNumberFormatterRo">
+<meta property="og:updated_time" content="2016-07-08T06:14:03.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="XcodeGhost 是怎么回事">
-<meta name="twitter:description" content="Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob Pike, 前不久被google挖走了)。Ken爷爷也算是计算机历史上开天辟地的人物了。1969年还是计算机史前时代，普通人都认为只有大型机才能运行通用的操作系统">
+<meta name="twitter:title" content="格式化Number 小技巧">
+<meta name="twitter:description" content="原值:2.7999999999
+typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) {
+    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 
+    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8
+    kCFNumberFormatterRo">
   
     <link rel="alternative" href="/atom.xml" title="Fovever young" type="application/atom+xml">
   
@@ -74,10 +86,10 @@
   </div>
 </header>
     <div class="outer">
-      <section id="main"><article id="post-XcodeGhost-是怎么回事" class="article article-type-post" itemscope itemprop="blogPost">
+      <section id="main"><article id="post-格式化Number-小技巧" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/05/18/XcodeGhost-是怎么回事/" class="article-date">
-  <time datetime="2016-05-18T10:05:53.000Z" itemprop="datePublished">2016-05-18</time>
+    <a href="/2016/07/08/格式化Number-小技巧/" class="article-date">
+  <time datetime="2016-07-08T06:11:09.000Z" itemprop="datePublished">2016-07-08</time>
 </a>
     
   </div>
@@ -88,7 +100,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      XcodeGhost 是怎么回事
+      格式化Number 小技巧
     </h1>
   
 
@@ -96,19 +108,30 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <a id="more"></a>
-<p>Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob Pike, 前不久被google挖走了)。Ken爷爷也算是计算机历史上开天辟地的人物了。1969年还是计算机史前时代，普通人都认为只有大型机才能运行通用的操作系统，小型机只有高山仰止的份儿。至于用高级语言来写操作系统，更是笑谈。Ken爷爷自然不是池中物，于是他和DMR怒了，在1969年到1970间用汇编在PDP-7上写出了UNIX的第一个版本。他们并不知道，一场轰轰烈烈的UNIX传奇由此拉开了序幕。Ken爷爷在1971年又把Unix用C重写，于是C在随后20年成就了不知多少豪杰的梦想和光荣。</p>
-<p>Ken爷爷还有段佳话： 装了UNIX的PDP-11最早被安装在Bell Lab里供大家日常使用。很快大家就发现Ken爷爷总能进入他们的帐户，获得最高权限。Bell Lab里的科学家都心比天高，当然被搞得郁闷无比。于是有高手怒了，跳出来分析了UNIX代码，找到后门，修改代码，然后重新编译了整个UNIX。就在大家都以为“这个世界清净了”的时候，他们发现Ken爷爷还是轻而易举地拿到他们的帐户权限，百思不解后，只好继续郁闷。谁知道这一郁闷，就郁闷了14年，直到Ken爷爷道出个中缘由。原来，代码里的确有后门，但后门不在Unix代码里，而在编译Unix代码的C编译器里。每次C编译器编译UNIX的代码，就自动生成后门代码。而整个Bell Lab的人，都是用Ken爷爷的C编译器。</p>
+        <p>原值:2.7999999999</p>
+<p><code>typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) {
+    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 
+    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8
+    kCFNumberFormatterRoundDown = 2,//加上了人民币标志,原值输出￥2.8
+    kCFNumberFormatterRoundUp = 3,//本身数值乘以100后用百分号表示,输出280%
+    kCFNumberFormatterRoundHalfEven = 4,//输出2.799999999E0
+    kCFNumberFormatterRoundHalfDown = 5,//原值的中文表示,输出二点七九九九。。。。
+    kCFNumberFormatterRoundHalfUp = 6//原值中文表示,输出第三
+};</code></p>
+<p><code>NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+formatter.numberStyle = kCFNumberFormatterRoundHalfDown;
+NSString *string = [formatter stringFromNumber:[NSNumber numberWithInt:12]];
+NSLog(@&quot;str = %@&quot;, string);</code></p>
 
       
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://cooooper.github.io/2016/05/18/XcodeGhost-是怎么回事/" data-id="ciqdck9b80002yk4yx0yj1v7j" class="article-share-link" data-share="baidu" data-title="XcodeGhost 是怎么回事">分享到</a>
+        <a data-url="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/" data-id="ciqdck9bg0005yk4yw3adeg9v" class="article-share-link" data-share="baidu" data-title="格式化Number 小技巧">分享到</a>
       
 
       
-        <a href="http://cooooper.github.io/2016/05/18/XcodeGhost-是怎么回事/#ds-thread" class="article-comment-link">评论</a>
+        <a href="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/#ds-thread" class="article-comment-link">评论</a>
       
 
       
@@ -118,19 +141,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/06/11/UILocalized​Indexed​Collation/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
-      <div class="article-nav-title">
-        
-          UILocalized​Indexed​Collation
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/05/18/iOS-面试题汇总/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2016/06/15/CocoaPods安装使用和错误/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">上一篇</strong>
-      <div class="article-nav-title">iOS 面试题汇总</div>
+      <div class="article-nav-title">CocoaPods安装使用和错误</div>
     </a>
   
 </nav>
