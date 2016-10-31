@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cooooper.github.io/"/>
-  <updated>2016-10-31T06:54:29.000Z</updated>
+  <updated>2016-10-31T06:58:00.000Z</updated>
   <id>http://cooooper.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://cooooper.github.io/2016/10/31/%E5%A4%9A%E5%B9%B4%E5%89%8D/"/>
     <id>http://cooooper.github.io/2016/10/31/多年前/</id>
     <published>2016-10-31T06:53:51.000Z</published>
-    <updated>2016-10-31T06:54:29.000Z</updated>
+    <updated>2016-10-31T06:58:00.000Z</updated>
     
     <content type="html">&lt;p&gt;The following words were written on the tomb of an Anglican Bishop in the Crypts of Westminster Abbey:&lt;br&gt;When I was young and free and my imagination had no limits, I dreamed of changing the world. As i grew older and wiser, I discovered the world would not change,so I shortened my sights somewhat and decided to change only my country.But it, too, seemed immovable.&lt;br&gt;As I grew into my twilight years, in one last desperate attempt, I settled for changing only my family, those closest to me, but alas, they would have none of it.And now as I lie on my deathbed, I suddenly realize: If I had only changed my self first, then by example I would have changed my family.From their inspiration and encouragement, I would then have been able to better my country and, who knows, I may have even changed the world.&lt;/p&gt;
 &lt;p&gt;在威斯敏斯特教堂地下室英国圣公会主教的墓碑上写着这样的一段话:&lt;br&gt;当我年轻自由的时候，我的想象力没有任何局限，我梦想改变这个世界。当我渐渐成熟明智的时候，我发现这个世界是不可能改变的，于是我将眼光放得短浅了一些，那就只改变我的国家吧。但是我的国家似乎也是不能改变的。当我到了迟暮之年，抱着最后一丝努力的希望，我决定只改变我的家庭，我亲近的人，但是他们根本不接受改变。现在在我临终之时，我才突然意识到：如果起初我只改变自己，接着我就可以依此改变我的家人。在他们的激发和鼓励下，我可能就能改善我的国家。接下来，谁又知道呢，也许我连整个世界都可以改变。&lt;/p&gt;
@@ -32,6 +32,8 @@
     
     </summary>
     
+    
+      <category term="life" scheme="http://cooooper.github.io/tags/life/"/>
     
   </entry>
   
