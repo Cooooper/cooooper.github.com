@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cooooper.github.io/"/>
-  <updated>2016-10-31T06:58:00.000Z</updated>
+  <updated>2016-11-24T04:07:25.000Z</updated>
   <id>http://cooooper.github.io/</id>
   
   <author>
@@ -20,15 +20,17 @@
     <link href="http://cooooper.github.io/2016/10/31/%E5%A4%9A%E5%B9%B4%E5%89%8D/"/>
     <id>http://cooooper.github.io/2016/10/31/多年前/</id>
     <published>2016-10-31T06:53:51.000Z</published>
-    <updated>2016-10-31T06:58:00.000Z</updated>
+    <updated>2016-11-24T04:07:25.000Z</updated>
     
-    <content type="html">&lt;p&gt;The following words were written on the tomb of an Anglican Bishop in the Crypts of Westminster Abbey:&lt;br&gt;When I was young and free and my imagination had no limits, I dreamed of changing the world. As i grew older and wiser, I discovered the world would not change,so I shortened my sights somewhat and decided to change only my country.But it, too, seemed immovable.&lt;br&gt;As I grew into my twilight years, in one last desperate attempt, I settled for changing only my family, those closest to me, but alas, they would have none of it.And now as I lie on my deathbed, I suddenly realize: If I had only changed my self first, then by example I would have changed my family.From their inspiration and encouragement, I would then have been able to better my country and, who knows, I may have even changed the world.&lt;/p&gt;
+    <content type="html">&lt;p&gt;The following words were written on the tomb of an Anglican Bishop in the Crypts of Westminster Abbey:&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;When I was young and free and my imagination had no limits, I dreamed of changing the world. As i grew older and wiser, I discovered the world would not change,so I shortened my sights somewhat and decided to change only my country.But it, too, seemed immovable.&lt;br&gt;As I grew into my twilight years, in one last desperate attempt, I settled for changing only my family, those closest to me, but alas, they would have none of it.And now as I lie on my deathbed, I suddenly realize: If I had only changed my self first, then by example I would have changed my family.From their inspiration and encouragement, I would then have been able to better my country and, who knows, I may have even changed the world.&lt;/p&gt;
 &lt;p&gt;在威斯敏斯特教堂地下室英国圣公会主教的墓碑上写着这样的一段话:&lt;br&gt;当我年轻自由的时候，我的想象力没有任何局限，我梦想改变这个世界。当我渐渐成熟明智的时候，我发现这个世界是不可能改变的，于是我将眼光放得短浅了一些，那就只改变我的国家吧。但是我的国家似乎也是不能改变的。当我到了迟暮之年，抱着最后一丝努力的希望，我决定只改变我的家庭，我亲近的人，但是他们根本不接受改变。现在在我临终之时，我才突然意识到：如果起初我只改变自己，接着我就可以依此改变我的家人。在他们的激发和鼓励下，我可能就能改善我的国家。接下来，谁又知道呢，也许我连整个世界都可以改变。&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;The following words were written on the tomb of an Anglican Bishop in the Crypts of Westminster Abbey:&lt;br&gt;When I was young and free and m
+      &lt;p&gt;The following words were written on the tomb of an Anglican Bishop in the Crypts of Westminster Abbey:&lt;/p&gt;
     
     </summary>
     
@@ -42,9 +44,10 @@
     <link href="http://cooooper.github.io/2016/07/08/%E6%A0%BC%E5%BC%8F%E5%8C%96Number-%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     <id>http://cooooper.github.io/2016/07/08/格式化Number-小技巧/</id>
     <published>2016-07-08T06:11:09.000Z</published>
-    <updated>2016-07-08T06:18:12.000Z</updated>
+    <updated>2016-11-24T04:09:43.000Z</updated>
     
-    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+    <content type="html">&lt;p&gt;请进入详情查看&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;原值:2.7999999999&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    kCFNumberFormatterRoundDown = 2,//加上了人民币标志,原值输出￥2.8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    kCFNumberFormatterRoundUp = 3,//本身数值乘以100后用百分号表示,输出280%&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    kCFNumberFormatterRoundHalfEven = 4,//输出2.799999999E0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    kCFNumberFormatterRoundHalfDown = 5,//原值的中文表示,输出二点七九九九。。。。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    kCFNumberFormatterRoundHalfUp = 6//原值中文表示,输出第三&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;formatter.numberStyle = kCFNumberFormatterRoundHalfDown;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NSString *string = [formatter stringFromNumber:[NSNumber numberWithInt:12]];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;NSLog(@&amp;quot;str = %@&amp;quot;, string);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -52,9 +55,7 @@
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;原值:2.7999999999&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;
+      &lt;p&gt;请进入详情查看&lt;/p&gt;
     
     </summary>
     
@@ -66,10 +67,11 @@
     <link href="http://cooooper.github.io/2016/06/15/CocoaPods%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%E5%92%8C%E9%94%99%E8%AF%AF/"/>
     <id>http://cooooper.github.io/2016/06/15/CocoaPods安装使用和错误/</id>
     <published>2016-06-15T09:50:28.000Z</published>
-    <updated>2016-06-15T09:52:10.000Z</updated>
+    <updated>2016-11-24T04:09:19.000Z</updated>
     
-    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;Cocopods的安装&lt;br&gt;CocoaPods应该是iOS最常用最有名的类库管理&lt;br&gt;当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻烦。如果我们项目中用到的类库有更新，还要重新下载新版本，重新加入到项目中，十分麻烦。所以，我们需要 CocoaPods帮我们管理。&lt;br&gt;如何下载和安装CocoaPods？&lt;br&gt;在安装CocoaPods之前，首先要在本地安装好Ruby环境。至于如何在Mac中安装好Ruby环境，请找度娘和谷哥。&lt;br&gt;假如你在本地已经安装好Ruby环境，那么下载和安装CocoaPods将十分简单，只需要一行命令。在Terminator中输入以下命令：&lt;/p&gt;
+    <content type="html">&lt;p&gt;Cocopods的安装&lt;br&gt;CocoaPods应该是iOS最常用最有名的类库管理&lt;br&gt;当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻烦。如果我们项目中用到的类库有更新，还要重新下载新版本，重新加入到项目中，十分麻烦。所以，我们需要 CocoaPods帮我们管理。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;如何下载和安装CocoaPods？&lt;br&gt;在安装CocoaPods之前，首先要在本地安装好Ruby环境。至于如何在Mac中安装好Ruby环境，请找度娘和谷哥。&lt;br&gt;假如你在本地已经安装好Ruby环境，那么下载和安装CocoaPods将十分简单，只需要一行命令。在Terminator中输入以下命令：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;sudo gem install cocoapods
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;但是,在终端中敲入这个命令之后，可能半天没有任何反应。&lt;/p&gt;
 &lt;p&gt;这时我们可以用淘宝的Ruby镜像来访问cocoapods。按照下面的顺序在终端中敲入依次敲入命令：&lt;/p&gt;
@@ -149,8 +151,7 @@ $ pod setup
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;Cocopods的安装&lt;br&gt;CocoaPods应该是iOS最常用最有名的类库管理&lt;br&gt;当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻
+      &lt;p&gt;Cocopods的安装&lt;br&gt;CocoaPods应该是iOS最常用最有名的类库管理&lt;br&gt;当我们开发iOS应用时，会经常使用到很多第三方开源类库，比如AFNetWorking等等，可能某个类库又用到其他的库，手动一个个去下载所需类库十分麻烦。如果我们项目中用到的类库有更新，还要重新下载新版本，重新加入到项目中，十分麻烦。所以，我们需要 CocoaPods帮我们管理。&lt;/p&gt;
     
     </summary>
     
@@ -164,10 +165,12 @@ $ pod setup
     <link href="http://cooooper.github.io/2016/06/11/UILocalized%E2%80%8BIndexed%E2%80%8BCollation/"/>
     <id>http://cooooper.github.io/2016/06/11/UILocalized​Indexed​Collation/</id>
     <published>2016-06-10T16:03:08.000Z</published>
-    <updated>2016-06-10T16:03:37.000Z</updated>
+    <updated>2016-11-24T04:09:04.000Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;hr&gt;
+&lt;p&gt;UILocalized​Indexed​Collation使用方法&lt;/p&gt;
+&lt;!--more--&gt;
 &lt;p&gt;&lt;a href=&quot;http://nshipster.cn/uilocalizedindexedcollation/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UILocalized​Indexed​Collation&lt;/a&gt;用法&lt;/p&gt;
 </content>
     
@@ -175,7 +178,9 @@ $ pod setup
     
       &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&quot;http://nshipster.cn/uilocalizedindexedcollation/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UILocalized​Indexed​Coll
+&lt;p&gt;UILocalized​Indexed​Collation使用方法&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;&lt;a href=&quot;http://nshipster.cn/uilocalizedindexedcollation/&quot; ta
     
     </summary>
     
@@ -189,17 +194,80 @@ $ pod setup
     <link href="http://cooooper.github.io/2016/05/18/XcodeGhost-%E6%98%AF%E6%80%8E%E4%B9%88%E5%9B%9E%E4%BA%8B/"/>
     <id>http://cooooper.github.io/2016/05/18/XcodeGhost-是怎么回事/</id>
     <published>2016-05-18T10:05:53.000Z</published>
-    <updated>2016-05-18T10:06:16.000Z</updated>
+    <updated>2016-11-24T04:08:03.000Z</updated>
     
-    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob Pike, 前不久被google挖走了)。Ken爷爷也算是计算机历史上开天辟地的人物了。1969年还是计算机史前时代，普通人都认为只有大型机才能运行通用的操作系统，小型机只有高山仰止的份儿。至于用高级语言来写操作系统，更是笑谈。Ken爷爷自然不是池中物，于是他和DMR怒了，在1969年到1970间用汇编在PDP-7上写出了UNIX的第一个版本。他们并不知道，一场轰轰烈烈的UNIX传奇由此拉开了序幕。Ken爷爷在1971年又把Unix用C重写，于是C在随后20年成就了不知多少豪杰的梦想和光荣。&lt;/p&gt;
+    <content type="html">&lt;p&gt;Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob Pike, 前不久被google挖走了)。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Ken爷爷也算是计算机历史上开天辟地的人物了。1969年还是计算机史前时代，普通人都认为只有大型机才能运行通用的操作系统，小型机只有高山仰止的份儿。至于用高级语言来写操作系统，更是笑谈。Ken爷爷自然不是池中物，于是他和DMR怒了，在1969年到1970间用汇编在PDP-7上写出了UNIX的第一个版本。他们并不知道，一场轰轰烈烈的UNIX传奇由此拉开了序幕。Ken爷爷在1971年又把Unix用C重写，于是C在随后20年成就了不知多少豪杰的梦想和光荣。&lt;/p&gt;
 &lt;p&gt;Ken爷爷还有段佳话： 装了UNIX的PDP-11最早被安装在Bell Lab里供大家日常使用。很快大家就发现Ken爷爷总能进入他们的帐户，获得最高权限。Bell Lab里的科学家都心比天高，当然被搞得郁闷无比。于是有高手怒了，跳出来分析了UNIX代码，找到后门，修改代码，然后重新编译了整个UNIX。就在大家都以为“这个世界清净了”的时候，他们发现Ken爷爷还是轻而易举地拿到他们的帐户权限，百思不解后，只好继续郁闷。谁知道这一郁闷，就郁闷了14年，直到Ken爷爷道出个中缘由。原来，代码里的确有后门，但后门不在Unix代码里，而在编译Unix代码的C编译器里。每次C编译器编译UNIX的代码，就自动生成后门代码。而整个Bell Lab的人，都是用Ken爷爷的C编译器。&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob P
+      &lt;p&gt;Ken Thompson，C语言前身B语言的作者，Unix的发明人之一(另一个是Dennis M. Riche老大，被尊为DMR)，Belle(一个厉害的国际象棋程序)的作者之一, 操作系统Plan 9的主要作者(另一个是大牛人Rob Pike, 前不久被google挖走了)。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>马太效应</title>
+    <link href="http://cooooper.github.io/2016/05/18/%E9%A9%AC%E5%A4%AA%E6%95%88%E5%BA%94/"/>
+    <id>http://cooooper.github.io/2016/05/18/马太效应/</id>
+    <published>2016-05-18T10:02:11.000Z</published>
+    <updated>2016-11-24T04:05:02.000Z</updated>
+    
+    <content type="html">&lt;p&gt;马太效应（Matthew Effect），指强者愈强、弱者愈弱的现象，广泛应用于社会心理学、教育、金融以及科学领域。马太效应，是社会学家和经济学家们常用的术语，反映的社会现象是两级分化，富的更富，穷的更穷[1]  。名字来自圣经《新约·马太福音》一则寓言： “凡有的，还要加倍给他叫他多余；没有的，连他所有的也要夺过来”。“马太效应”与“平衡之道”相悖；与“二八定则”类似，是十分重要的自然法则。中国古代哲学家老子曾提出类似的思想：“天之道，损有余而补不足。人之道则不然，损不足以奉有余。”&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;马太效应的名字就来源于圣经《新约·马太福音》中的一则寓言：从前，一个国王要出门远行，临行前，交给3个仆人每人一锭银子，吩咐道:“你们去做生意，等我回来时，再来见我。”国王回来时，第一个仆人说:“主人，你交给我的一锭银子，我已赚了10锭。”于是，国王奖励他10座城邑。第二个仆人报告:“主人，你给我的一锭银子，我已赚了5锭。”于是，国王奖励他5座城邑。第三仆人报告说:“主人，你给我的1锭银子，我一直包在手帕里，怕丢失，一直没有拿出来。[3]  ”&lt;/p&gt;
+&lt;p&gt;于是，国王命令将第三个仆人的1锭银子赏给第一个仆人，说:“凡是少的，就连他所有的，也要夺过来。凡是多的，还要给他，叫他多多益善。”这就是“马太效应”[3]  ，反应当今社会中存在的一个普遍现象，即赢家通吃[3]  。&lt;/p&gt;
+&lt;p&gt;社会领域&lt;/p&gt;
+&lt;p&gt;许多残疾人就不了业，上不了学，上学和受教育对一般的孩子来说只不过是基本权利，可对许多残疾的孩子来说是梦想，先残疾，再失学，然后失业，最后失去生存能力，这就是最明显的马太效应。也是最残酷的马太效应。因为在21世纪，信息化社会，竞争强烈的社会，一个人如果不接受任何的教育，必然成为社会的废人，更何况身体条件很差的人，可想而知。以海南为例，全省15岁以上残疾人文盲人口有22.86万人，文盲率为46.27%。&lt;/p&gt;
+&lt;p&gt;笔者认为残疾人入学难不只是教育资源紧张和经费紧张的问题，还有就是普通学校无障碍建设的问题，家长的思想问题，如果家长思想问题和无障碍建设问题不解决，无论再多经费投入也不能从根本上解决残疾人教育的，因为有些家长怕丢人等原因，他们情愿把孩子放在家里，不想让孩子出去外面见人，更不想让孩子上学。由于普通学校很少考虑到残疾学生，没有无障碍设计，比如专用楼梯等，因此造成了一些肢体残疾的孩子上不了学，肢体残疾的孩子是无法进特殊学校的。残疾人需要适应社会，社会也要适应残疾人。&lt;/p&gt;
+&lt;p&gt;品牌的营销创新启示&lt;/p&gt;
+&lt;p&gt;随着经济全球化和我国加入WTO之后，国内企业品牌资本的构建日益迫切，企业积聚绝对优势的品牌资本，创造持续的价值，推动整合的市场资源，形成有形和无形的巨大财富效应，对于企业来说将会在日益激烈的市场竞争中立于不败之地。&lt;/p&gt;
+&lt;p&gt;积聚品牌资本是顺应企业占领市场最高点的现实需求。品牌资本是全球市场消费革命的源动力，不仅涉及到生活领域，而且也涉及经济金融领域。人们在追求生活品牌的同时，对金融也必然有品牌的要求。国内的企业如果不培育自己的品牌，将来就难以满足这些日益高新化的需求。&lt;/p&gt;
+&lt;p&gt;积聚品牌资本是持续创造价值的核心要求。没有价值的品牌是无源之水，无本之木，品牌只有具有无形资产价值所具有的特性如制订标准和拥有核心的技术，品牌只有具备向有形资产可转化的价值，品牌只有与资本进行有机的对接，形成绝对的品牌资本优势才能为企业提供源源不断的财富源泉。&lt;/p&gt;
+&lt;p&gt;积聚品牌资本是整合营销、创造财富的必由之路。品牌是需要营销的，营销可以提升品牌的知名度。品牌的形成和确立是一个从认识到认知再到认可的过程，最后达到认同的目的。整合市场资源可以在更大范围内营销品牌，提升品牌的知名度。品牌资本外在的表现形式为可量化的价值，品牌资本的内在表现形式为消费者心中的接受程度和评判标准。&lt;/p&gt;
+&lt;p&gt;教育领域&lt;/p&gt;
+&lt;p&gt;教育中的马太效应主要可从这么几个方面来看：&lt;/p&gt;
+&lt;p&gt;其一，越是教授、专家，得到的科研经费多，社会兼职越多，各种名目的评奖似乎就是为他们设立的。在科研领域存在这样一种怪现象：科研经费的使用基本被垄断，从立项、评选、经费分配基本由少数专家控制。尽管某些项目从立题到完成与一些专家没任何关系，但是，无论立项书还是最终成果也必须将某些知名专家的大名冠于首位。这样一来，一般学者的劳动果实都成了专家的“成果”，使少数专家成了科研寡头。据说，某市级教育科研项目基本都是几位知名评委瓜分。&lt;/p&gt;
+&lt;p&gt;马太效应”的出现实质是社会强势群体对于社会弱势群体平等的教育权的掠夺，必将加速社会财富与权力的两极分化，加剧社会矛盾，最终会引起社会的震荡；它造成了局部的繁荣，却扼杀了作为整体的教育的生命，就像癌细胞的过度繁殖必将危及到作为整体的人的生命，而人生命的丧失却又使癌细胞失去了生存的基础，最后也必与个体的生命一起消失，连局部的繁荣都将不可得。&lt;/p&gt;
+&lt;p&gt;在学校教育中，“马太效应”的作用是消极的。例如，一个品学兼优的好学生，学校领导称赞他，班主任更是经常表扬，回到家中也倍受宠爱，如此优越的成长环境，带给他的也不都是欢乐。学生们给他的是这样的“优待”，风言风语声声：“老师就想着他一个，什么好处都是他的。”“老师就夸他能力强，经常出风头，能力能不强吗？他有缺点，但老师还要护着他。”“什么三好学生，优秀团员和干部，都是他得的，老师就是戴着有色眼镜看人。”等等。这类事情在学校并不鲜见，如果不注意这种“马太效应”，那就必然造成只重视和培养少数拔尖学生，忽视和放弃大多数学生，形成少数和多数的隔膜、分化、对立。所以有经验的老师往往这样说：要偏爱差生，发掘他们身上的闪光点。&lt;/p&gt;
+&lt;p&gt;企业经营&lt;/p&gt;
+&lt;p&gt;马太效应揭示了一个不断增长个人和企业资源的需求原理，是影响企业发展和个人成功的一个重要法则。&lt;/p&gt;
+&lt;p&gt;对企业经营发展而言[3]  ，马太效应告诉我们:要想在某一个领域保持优势，就必须在此领域迅速做大。当你成为某个领域的领头羊时，即便投资回报率相同，你也能更轻易地获得比弱小的同行更大的收益。而若没有实力迅速在某个领域做大，就要不停地寻找新的发展领域，才能保证获得较好的回报[3]  。&lt;/p&gt;
+&lt;p&gt;缺陷&lt;/p&gt;
+&lt;p&gt;马太效应理论的缺陷主要在于缺乏辩证思维：&lt;/p&gt;
+&lt;p&gt;1，只看到事物发展的短期趋势，只反映了数量方面的变化，忽视了性质的变化，不能用于分析事物发展的长期趋势；事实上，在客观世界，任何事物都遵循发生-发展-成熟-衰老-灭亡的规律，没有什么是永远不变的。&lt;/p&gt;
+&lt;p&gt;2, 不具备普遍意义，只是对短期趋势理论的一种假说，难以证明普遍的真理性。比如，难以解释在很多领域存在的“后发优势”现象。&lt;/p&gt;
+&lt;p&gt;经济学中的马太效应&lt;/p&gt;
+&lt;p&gt;“马太效应”是十几年来经济学界经常提及的，经济学界用它提醒决策者，要避免贫富差别过大。此术语为经济学界所借用，反映贫者愈贫，富者愈富，赢家通吃的经济学中收入分配不公的现象。马太效应揭示了一个不断增长个人和企业资源的需求原理，关系到个人的成功和生活幸福，因此它是影响企业发展和个人成功的一个重要法则。&lt;/p&gt;
+&lt;p&gt;在教育方面的长期马太效应被运用在心理学家Keith Stanovich的研究中，他曾广泛做了对阅读能力和语言残疾的研究。 Stanovich用「马太效应」一词，来形容早期成功获取阅读能力，通常会导致作为学习者成人后的成功这一现象，而如若没有能在头三年或四年中获得阅读能力，将可能造成长期的、学习不同新技能的困难。儿童在开始阅读方面的落后，也将增加他们与同龄人之间的差距。后来，当学生需要“从阅读中学习”（其中，然后才学习阅读），他们的阅读困难会进一步造成学习大多数其他科目的问题。这样，他们的知识和能力会逐步下降，并进一步在学业上落后，跌幅会比同龄人越发增高。&lt;/p&gt;
+&lt;p&gt;学生阅读能力愈高，对词汇和世界知识的增长愈快、愈多，这结果进一步提升阅读能力，两者良性地循环；阅读能力愈低，对词汇和世界知识的增长愈慢、愈少，这结果进一步妨碍阅读能力的发展，两者恶性地循环。於是，高阅读能力的儿童，与低阅读能力的儿童，在语文能力、对世界的认识等智能上的表现，差异只会愈来愈大，贫者愈贫，富者愈富，始终无法修补。&lt;/p&gt;
+&lt;p&gt;因此，如果教师和家长对能力落后的儿童抱持观望，期望他们的阅读能力能随年岁增长而自然赶及，这种想法实在不切实际。&lt;/p&gt;
+&lt;p&gt;爱情中的马太效应&lt;/p&gt;
+&lt;p&gt;跟经济学的马太效应不同的是，爱情中的马太效应并不简单地是拿情感做成本，越滚越多；而是如果处于情感的包围 中，心态就会很好，人放松，对快乐敏感，对伤害迟钝，再加上激素作用，让人容光焕发，这些都会更具对异性的吸引力。当然，异性的微妙的竞争心理，也促进了爱情的马太效应。所以如果没有被爱包围，至少要模拟被包围的那种状态，把心态放松 ，随时处于接收的状态，像一台不断调试的收音机，爱情就比较容易到来。&lt;/p&gt;
+&lt;p&gt;何谓品牌资本的马太效应&lt;/p&gt;
+&lt;p&gt;品牌资本的马太效应是指，某个行业或产业的产品或服务，品牌知名度越大，品牌的价值越高，其忠实的消费者就越多，势必其占有的市场份额就越大。反之，某个行业或产业的产品或服务，品牌知名度越小，品牌的价值越低，其忠实的消费者就越少，势必其占有的市场份额就越小，将导致利润减少，被市场淘汰，其让位的市场将会被品牌知名度高的产品或服务代替。&lt;/p&gt;
+&lt;p&gt;马太效应（Matthew Effect），在品牌资本领域内就是普遍存在的市场现象：强者恒强，弱者恒弱，或者说，赢家通吃。&lt;/p&gt;
+&lt;p&gt;品牌资本马太效实践成功的案例&lt;/p&gt;
+&lt;p&gt;品牌资本的核心价值是标准和技术，衍生的价值为消费者对品牌的认可和品牌营销系统的构建。&lt;/p&gt;
+&lt;p&gt;最高形态的资本是企业品牌价值；无形形态的资本是企业知识产权的价值；固化形态的资本是企业的机器设备和不动产。对于企业来讲，一流企业出标准，二流企业出技术，三流企业出产品，四流企业出效益。&lt;/p&gt;
+&lt;p&gt;企业惟有借助航空母舰般的“品牌资本”在行业中利用制订标准和塑造企业品牌形象，才能立于不败之地。&lt;/p&gt;
+&lt;p&gt;尤其在软件技术、电子技术等关键领域，核心技术更是企业生存和发展的命脉。一些科技发达国家及跨国公司仍凭借对很多领域技术标准的控制，左右着产业格局的变化。因此，企业只有极力创新、参与制定具有自主知识产权的标准，占据品牌资本，才可能在自身领域占领技术制高点，获得市场竞争优势。&lt;/p&gt;
+&lt;p&gt;高通、微软、日本6C联盟都是凭借标准制胜中国市场的典型。CDMA相关技术在高通的运作下成为其所掌握的专利和国际标准，所有生产CDMA相关通讯产品的企业都必须向高通交纳CDMA的入门费和使用费，高通由此一跃成为坐拥标准、日进斗金的跨国企业。&lt;/p&gt;
+&lt;p&gt;星巴克公司品牌资本的马太效应创造了成功的奇迹，在华尔街，星巴克早已成为投资者心目中的安全港，过去十年间，它的股价在经历了四次分拆之后攀升了22倍，收益之高超过了通用电气、百事可乐、可口可乐、微软以及IBM等大公司。是什么创造了星巴克奇迹？将星巴克一手带大的舒尔茨回答：“我们的最大优势就是与合作者们相互信任，关键问题在于我们如何在高速发展中，保持企业价值观和指导原则的一致性。”&lt;/p&gt;
+&lt;p&gt;职业发展中的马太效应&lt;/p&gt;
+&lt;p&gt;那些没有发展目标、没有发展规划、也无积极心态的人，在发展中容易陷入负面循环，局面会越来越局促并难以突破[1]  ；而那些从一开始有目标、有计划且心态积极、有闯劲的人，即使遇到一些困难，也能通过不断努力排除障碍，破茧成蝶，往越来越好的方向发展。这样的两极分化，其实就是职业生涯中的马太效应[1]  。&lt;/p&gt;
+&lt;p&gt;马太效应对个人发展最严重的影响就是它所产生的连锁反应[1]  。当个人职业发展不好，其所接触到的资源、平台和人脉也越来越贫乏，在外部环境、条件和资源都越来越欠缺的状况下，个人发展是很难有所突破的[1]  。将此放入组织内部考察就会发现，在组织规模越大的企业里，马太效应越发明显。核心部门的员工、业务骨干等，与边缘部门及辅助人员等除了薪资有巨大的差别外，所拥有的资源、晋升机会、发展平台、人脉等也相差甚远[1]  。&lt;/p&gt;
+&lt;p&gt;要避免马太效应对自身职业发展的负面影响，需要激流勇进[1]  。一是要明确职业定位，树立清晰目标[1]  。二是要通过自身努力和优化，获得好资源、好平台[1]  。三是要让好心态成为好运气的吸金石[1]  。有的职场人错误的以为，不咸不淡的呆着就能自保饭碗[1]  。其实弱者是很难参与分配优质资源，没有好资源就难发展，而终将难逃被淘汰的命运[1]  。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;马太效应（Matthew Effect），指强者愈强、弱者愈弱的现象，广泛应用于社会心理学、教育、金融以及科学领域。马太效应，是社会学家和经济学家们常用的术语，反映的社会现象是两级分化，富的更富，穷的更穷[1]  。名字来自圣经《新约·马太福音》一则寓言： “凡有的，还要加倍给他叫他多余；没有的，连他所有的也要夺过来”。“马太效应”与“平衡之道”相悖；与“二八定则”类似，是十分重要的自然法则。中国古代哲学家老子曾提出类似的思想：“天之道，损有余而补不足。人之道则不然，损不足以奉有余。”&lt;/p&gt;
     
     </summary>
     
@@ -240,10 +308,9 @@ $ pod setup
     <link href="http://cooooper.github.io/2016/05/18/iOS-%E9%9D%A2%E8%AF%95%E9%A2%98%E6%B1%87%E6%80%BB/"/>
     <id>http://cooooper.github.io/2016/05/18/iOS-面试题汇总/</id>
     <published>2016-05-18T08:38:49.000Z</published>
-    <updated>2016-05-18T08:39:59.000Z</updated>
+    <updated>2016-11-24T04:05:38.000Z</updated>
     
-    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;#####初级部分&lt;/p&gt;
+    <content type="html">&lt;p&gt;#####初级部分&lt;/p&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li&gt;最近这两天你有学到什么知识/技能么？&lt;/li&gt;
@@ -256,6 +323,9 @@ $ pod setup
 &lt;li&gt;有没有在 GitHub 上发布过开源代码，参与过开源项目？&lt;/li&gt;
 &lt;li&gt;你最近遇到过的一个技术挑战是什么？怎么解决的？&lt;/li&gt;
 &lt;li&gt;开发常用的工具有哪些？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ol&gt;
 &lt;li&gt;熟悉 CocoaPods 么？能大概讲一下工作原理么？&lt;/li&gt;
 &lt;li&gt;最常用的版本控制工具是什么，能大概讲讲原理么？&lt;/li&gt;
 &lt;li&gt;今年你最想掌握的一门技术是什么？为什么？目前已经做到了哪个程度？&lt;/li&gt;
@@ -385,14 +455,20 @@ $ pod setup
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;#####初级部分&lt;/p&gt;
+      &lt;p&gt;#####初级部分&lt;/p&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li&gt;最近这两天你有学到什么知识/技能么？&lt;/li&gt;
 &lt;li&gt;最近有做过比较酷或者比较有挑战的项目么？&lt;/li&gt;
 &lt;li&gt;最近看过的书/文章有哪些？&lt;/li&gt;
-&lt;li&gt;如何向一个只接触过互
+&lt;li&gt;如何向一个只接触过互联网的孩子解释「电视」？&lt;/li&gt;
+&lt;li&gt;为什么要学习编程，编程对你而言的乐趣在哪儿？&lt;/li&gt;
+&lt;li&gt;如果一个函数10次中有7次正确，3次错误，问题可能出现在哪里？&lt;/li&gt;
+&lt;li&gt;自身最大优点是什么，怎么证明？&lt;/li&gt;
+&lt;li&gt;有没有在 GitHub 上发布过开源代码，参与过开源项目？&lt;/li&gt;
+&lt;li&gt;你最近遇到过的一个技术挑战是什么？怎么解决的？&lt;/li&gt;
+&lt;li&gt;开发常用的工具有哪些？&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
@@ -406,10 +482,9 @@ $ pod setup
     <link href="http://cooooper.github.io/2016/05/18/ideabinder-iOS-%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B2%97%E4%BD%8D%E8%A6%81%E6%B1%82/"/>
     <id>http://cooooper.github.io/2016/05/18/ideabinder-iOS-工程师岗位要求/</id>
     <published>2016-05-18T06:55:40.000Z</published>
-    <updated>2016-05-18T08:36:01.000Z</updated>
+    <updated>2016-11-24T04:05:25.000Z</updated>
     
-    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;岗位职责：&lt;/p&gt;
+    <content type="html">&lt;p&gt;岗位职责：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;[独立开发] 能够独立完成客户端应用的功能开发&lt;/p&gt;
 &lt;/li&gt;
@@ -422,6 +497,7 @@ $ pod setup
 &lt;li&gt;&lt;p&gt;[反馈问题] 主动发现问题，及时向主管反馈&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;岗位要求：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;为人正直、诚实守信、认真负责&lt;/p&gt;
@@ -458,14 +534,19 @@ $ pod setup
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;岗位职责：&lt;/p&gt;
+      &lt;p&gt;岗位职责：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;[独立开发] 能够独立完成客户端应用的功能开发&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;[功能调试] 负责客户端的单元测试及功能调试&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;[持续优化] 能够对现有项目进行
+&lt;li&gt;&lt;p&gt;[持续优化] 能够对现有项目进行维护及持续优化，并能及时添加对iOS新特性的支持&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[编写文档] 参与工程类相关文档的编写与维护工作&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[反馈问题] 主动发现问题，及时向主管反馈&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     

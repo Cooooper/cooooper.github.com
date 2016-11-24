@@ -6,19 +6,16 @@
   
   <title>格式化Number 小技巧 | Fovever Young</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="原值:2.7999999999
-123456789101112131415161718typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) &amp;#123;    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3         kCFNumberFormatterRoundFloor = 1,/">
+  <meta name="description" content="请进入详情查看">
 <meta property="og:type" content="article">
 <meta property="og:title" content="格式化Number 小技巧">
 <meta property="og:url" content="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/index.html">
 <meta property="og:site_name" content="Fovever Young">
-<meta property="og:description" content="原值:2.7999999999
-123456789101112131415161718typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) &amp;#123;    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3         kCFNumberFormatterRoundFloor = 1,/">
-<meta property="og:updated_time" content="2016-07-08T06:18:12.000Z">
+<meta property="og:description" content="请进入详情查看">
+<meta property="og:updated_time" content="2016-11-24T04:09:43.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="格式化Number 小技巧">
-<meta name="twitter:description" content="原值:2.7999999999
-123456789101112131415161718typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) &amp;#123;    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3         kCFNumberFormatterRoundFloor = 1,/">
+<meta name="twitter:description" content="请进入详情查看">
   
     <link rel="alternative" href="/atom.xml" title="Fovever Young" type="application/atom+xml">
   
@@ -99,7 +96,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <a id="more"></a>
+        <p>请进入详情查看</p>
+<a id="more"></a>
 <p>原值:2.7999999999</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) &#123;</span><br><span class="line"></span><br><span class="line">    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 </span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundDown = 2,//加上了人民币标志,原值输出￥2.8</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundUp = 3,//本身数值乘以100后用百分号表示,输出280%</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundHalfEven = 4,//输出2.799999999E0</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundHalfDown = 5,//原值的中文表示,输出二点七九九九。。。。</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundHalfUp = 6//原值中文表示,输出第三</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];</span><br><span class="line"></span><br><span class="line">formatter.numberStyle = kCFNumberFormatterRoundHalfDown;</span><br><span class="line"></span><br><span class="line">NSString *string = [formatter stringFromNumber:[NSNumber numberWithInt:12]];</span><br><span class="line"></span><br><span class="line">NSLog(@&quot;str = %@&quot;, string);</span><br></pre></td></tr></table></figure>
@@ -108,7 +106,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/" data-id="civvtvq34000b5gowe6k62nsl" class="article-share-link" data-share="baidu" data-title="格式化Number 小技巧">分享到</a>
+        <a data-url="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/" data-id="civvu45df000cclowkvh856yc" class="article-share-link" data-share="baidu" data-title="格式化Number 小技巧">分享到</a>
       
 
       
@@ -161,7 +159,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">十月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">六月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">4</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">十月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">六月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">5</span></li></ul>
     </div>
   </div>
 
