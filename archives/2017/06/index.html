@@ -4,18 +4,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>格式化Number 小技巧 | Fovever Young</title>
+  <title>Archives: 2017/6 | Fovever Young</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="请进入详情查看">
-<meta property="og:type" content="article">
-<meta property="og:title" content="格式化Number 小技巧">
-<meta property="og:url" content="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/index.html">
+  <meta name="description" content="Move fast and break things.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fovever Young">
+<meta property="og:url" content="http://cooooper.github.io/archives/2017/06/index.html">
 <meta property="og:site_name" content="Fovever Young">
-<meta property="og:description" content="请进入详情查看">
-<meta property="og:updated_time" content="2016-11-24T04:09:43.000Z">
+<meta property="og:description" content="Move fast and break things.">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="格式化Number 小技巧">
-<meta name="twitter:description" content="请进入详情查看">
+<meta name="twitter:title" content="Fovever Young">
+<meta name="twitter:description" content="Move fast and break things.">
   
     <link rel="alternative" href="/atom.xml" title="Fovever Young" type="application/atom+xml">
   
@@ -74,73 +73,40 @@
   </div>
 </header>
     <div class="outer">
-      <section id="main"><article id="post-格式化Number-小技巧" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/07/08/格式化Number-小技巧/" class="article-date">
-  <time datetime="2016-07-08T06:11:09.000Z" itemprop="datePublished">2016-07-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+      <section id="main">
   
-    <h1 class="article-title" itemprop="name">
-      格式化Number 小技巧
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2017" class="archive-year">2017</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2017/06/28/密码学基础与代码签名-一/" class="archive-article-date">
+  <time datetime="2017-06-28T09:39:54.000Z" itemprop="datePublished">6月 28</time>
+</a>
+      
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2017/06/28/密码学基础与代码签名-一/">密码学基础与代码签名(一)</a>
     </h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>请进入详情查看</p>
-<a id="more"></a>
-<p>原值:2.7999999999</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">typedef CF_ENUM(CFIndex, CFNumberFormatterRoundingMode) &#123;</span><br><span class="line"></span><br><span class="line">    kCFNumberFormatterRoundCeiling = 0,//四舍五入,直接输出3 </span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundFloor = 1,//保留小数输出2.8</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundDown = 2,//加上了人民币标志,原值输出￥2.8</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundUp = 3,//本身数值乘以100后用百分号表示,输出280%</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundHalfEven = 4,//输出2.799999999E0</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundHalfDown = 5,//原值的中文表示,输出二点七九九九。。。。</span><br><span class="line">    </span><br><span class="line">    kCFNumberFormatterRoundHalfUp = 6//原值中文表示,输出第三</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];</span><br><span class="line"></span><br><span class="line">formatter.numberStyle = kCFNumberFormatterRoundHalfDown;</span><br><span class="line"></span><br><span class="line">NSString *string = [formatter stringFromNumber:[NSNumber numberWithInt:12]];</span><br><span class="line"></span><br><span class="line">NSLog(@&quot;str = %@&quot;, string);</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-        <a data-url="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/" data-id="cj4gte10w000jieow1ppzh0e7" class="article-share-link" data-share="baidu" data-title="格式化Number 小技巧">分享到</a>
-      
-
-      
-        <a href="http://cooooper.github.io/2016/07/08/格式化Number-小技巧/#ds-thread" class="article-comment-link">评论</a>
-      
-
-      
-    </footer>
+    </header>
   </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2016/10/31/多年前/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
-      <div class="article-nav-title">
-        
-          多年前
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2016/06/15/我在京东一次糟糕的购物体验/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">上一篇</strong>
-      <div class="article-nav-title">我在京东一次糟糕的购物体验</div>
-    </a>
-  
-</nav>
-
-  
 </article>
-
- </section>
+  
+  
+    </div></section>
+  
+</section>
       
       <aside id="sidebar">
   
